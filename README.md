@@ -1,2 +1,10 @@
 # FacebookDataMessageParsing
-Parse your facebook data into a CSV of your message frequency history per person
+Parse your facebook data into a CSV of your message frequency history per person. The CSV is formatted with Name, Frequency, and Month in each row. From there you can input the data into Excel or another program and analyze it or make charts!
+
+## Setup
+0. Download Ruby if you don't have it yet. 
+1. Go to your [Facebook Settings](https://www.facebook.com/settings) and click "Download a copy of your Facebook data"
+2. Wait for them to email you when the download is ready
+3. Download the data into a directory. Then, clone this repo into the same directory.
+4. Change your path and name variables in the file
+5. Run `ruby script.rb` from the directory the script is in. In a few minutes, it will finish and dump the data into a CSV.
