@@ -7,4 +7,4 @@ Parse your facebook data into a CSV of your message frequency history per person
 2. Wait for them to email you when the download is ready
 3. Download the data into a directory. Then, clone this repo into the same directory.
 4. Change your path and name variables in the file
-5. Run `ruby script.rb` from the directory the script is in. In a few minutes, it will finish and dump the data into a CSV.
+5. Run `ruby script.rb` from the directory the script is in. It will finish and dump the data into a CSV. Depending how much data you have, it could take from a few minutes up to tens of minutes.
